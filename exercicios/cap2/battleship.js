@@ -1,9 +1,34 @@
-let localizaçao1=3;
-let localizaçao2=4;
-let localizaçao3=5;
+let localizacao1 = 3;
+let localizacao2 = 4;
+let localizacao3 = 5;
 
-let palpite=null;
+
 let acertos=0;
 let palpite=0;
-
+let tentativa= null;
 let isSunk=false;
+
+while(isSunk==false){
+    palpite = prompt("Preparar, apontar, fogo!(digite um número de 0 a 6):");
+    if(palpite < 0 || palpite > 6){
+        alert("Por favor, insira um número válido!");
+    }else{
+        tentativa += 1;
+
+        if(palpite == localizacao1 || palpite == localizacao2 || palpite == localizacao3){
+            alert("ACERTOU!");
+            acertos+=1;
+
+            if(acertos==3){
+            isSunk = true;
+            alert("Você afundou meu navio de guerra!");
+            }
+        }else{
+            alert("MISS");
+        }
+        
+    }
+}
+let stats="Você pegou "+tentativa+ " palpites para afundar o navio de guerra, o que significa que sua precisão de tiro foi " +(3,"/"+tentativa);
+
+alert(stats);
