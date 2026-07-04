@@ -1,6 +1,9 @@
-let localizacao1 = 3;
-let localizacao2 = 4;
-let localizacao3 = 5;
+
+let randomLoc=Math.floor(Math.random()*5);
+
+let localizacao1 = randomLoc;
+let localizacao2 = localizacao1+1;
+let localizacao3= localizacao2+1;
 
 
 let acertos=0;
@@ -29,6 +32,6 @@ while(isSunk==false){
         
     }
 }
-let stats="Você pegou "+tentativa+ " palpites para afundar o navio de guerra, o que significa que sua precisão de tiro foi " +(3,"/"+tentativa);
+let stats="Você pegou "+tentativa+ " palpites para afundar o navio de guerra, o que significa que sua precisão de tiro foi " +(3/tentativa);
 
 alert(stats);
