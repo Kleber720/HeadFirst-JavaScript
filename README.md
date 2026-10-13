@@ -1,5 +1,7 @@
 # Head First JavaScript · Estudos
 
+> **Estudos e tutoriais:** este repositório reúne exercícios, prática de curso ou acompanhamento de tutoriais. Não faz parte dos quatro projetos principais do portfólio.
+
 ![JavaScript](https://img.shields.io/badge/JavaScript-B99000?style=flat-square&logo=javascript&logoColor=white)
 
 Exercícios de estudo de JavaScript organizados por capítulo.
@@ -18,4 +20,4 @@ Material de aprendizagem e prática pessoal.
 
 ---
 
-[← Portfólio de Kleber Amaro](https://github.com/Kleber720) · [Todos os repositórios](https://github.com/Kleber720?tab=repositories)
+[Portfólio de Kleber Amaro](https://github.com/Kleber720) · [Todos os repositórios](https://github.com/Kleber720?tab=repositories)
